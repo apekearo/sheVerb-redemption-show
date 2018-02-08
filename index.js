@@ -11,44 +11,44 @@ jQuery(function ($) {
     var supportsAudio = !!document.createElement('audio').canPlayType;
     if (supportsAudio) {
         var index = 0,
-            playing = false,
-            mediaPath = 'http://archive.org/details/sheverb',
+            playing = true,
+            mediaPath = 'https://archive.org/download/sheverb/',
             extension = '',
             tracks = [{
                 "track": 1,
                 "name": "Boxcar Western",
                 "length": "4:00",
-                "file": ""
+                "file": "01 Boxcar Western"
             }, {
                 "track": 2,
                 "name": "Louie Louie",
                 "length": "3:40",
-                "file": "BS_TF"
+                "file": "02 Louie Louie"
             }, {
                 "track": 3,
                 "name": "Cactus Juice",
                 "length": "6:00",
-                "file": "BS_ATKM"
+                "file": "03 Cactus Juice"
             }, {
                 "track": 4,
                 "name": "Thunder Lizard",
                 "length": "8:52",
-                "file": "BSFM_TF"
+                "file": "04 Thunder Lizard"
             }, {
                 "track": 5,
                 "name": "Western Leone",
                 "length": "7:06",
-                "file": "BSFM_ATKM"
+                "file": "05 Western Leone"
             }, {
                 "track": 6,
                 "name": "Last Day of Endless Summer",
                 "length": "5:16",
-                "file": "AC_ATI"
+                "file": "06 Last Day of Endless Summer"
             }, {
                 "track": 7,
                 "name": "Electric Monk",
                 "length": "4:53",
-                "file": "AC_ATKMTake_1"
+                "file": "07 Electric Monk"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
