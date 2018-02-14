@@ -33,7 +33,7 @@ jQuery(function ($) {
                 "track": 4,
                 "name": "Thunder Lizard",
                 "length": "8:52",
-                "file": "04 Thunder Lizard"
+                "file": "04 Ventures Thunder Lizard"
             }, {
                 "track": 5,
                 "name": "Western Leone",
